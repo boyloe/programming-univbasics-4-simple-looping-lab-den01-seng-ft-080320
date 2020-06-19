@@ -22,9 +22,9 @@ end
 
 def return_string_array(array)
   count = 0
-  new_Arr = []
+  new_arr = []
   while count < array.length do
-    new_Arr.join(array[count].to_s)
+    new_arr.join(array[count].to_s)
     count += 1
   end
   new_arr
